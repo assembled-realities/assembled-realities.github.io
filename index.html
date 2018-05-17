@@ -20,35 +20,66 @@
 	<body>
 		<div id="summit" class="w3-top w3-card w3-black"><div class="w3-bar">
 			<div class="w3-xlarge w3-bar-item"><i class="fa fa-chart-pie w3-text-amber"></i> Assembled Realities</div>
-			<a href="#about" class="ar-nav-item w3-bar-item w3-border-black w3-hover-text-amber w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">About</a>
-			<a href="#work" class="ar-nav-item w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">Work</a>
-			<a href="#team" class="ar-nav-item w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">Team</a>
-			<a href="#news" class="ar-nav-item w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">News</a>
-			<div class="ar-nav-item w3-bar-item w3-hide-large"><i class="fa fa-bars fa-2x w3-hover-text-amber"></i></div>
-			<!-- Nav modal -->
+			<a href="#news" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">NEWS</a>
+			<a href="#team" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">TEAM</a>
+			<a href="#work" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">WORK</a>
+			<a href="#about" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-text-amber w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">ABOUT</a>
+			<div class="ar-nav-item w3-right w3-bar-item w3-hide-large" onclick="showNav()"><i class="fas fa-bars fa-2x w3-hover-text-amber"></i></div>
 			<!-- Social links -->
 		</div></div>
+		<div id="ARnav" class="w3-modal" style="display:none;"><div class="modal-content"><div class="w3-container w3-black w3-center w3-padding-large">
+			<div onclick="hideNav()" class="ar-nav-item w3-padding w3-black w3-display-topright"><i class="fas fa-window-close fa-2x w3-hover-text-amber"></i></div>
+			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#about">ABOUT</a><br />
+			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#work">WORK</a><br />
+			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#team">TEAM</a><br />
+			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#news">NEWS</a>
+			<hr />
+			<span class="w3-padding"><a href="https://github.com/assembled-realities" title="Assembled Realities on github.com" target="_blank"><i class="fab fa-github fa-2x w3-hover-text-amber"></i></a> </span>
+			<span class="w3-padding"><a href="https://assembled-realities.itch.io/" title="Assembled Realities on itch.io" target="_blank"><i class="fas fa-gamepad fa-2x w3-hover-text-amber"></i></a></span>
+		</div></div></div>
 		<div class="w3-display-container w3-black" style="height:50vh;">
 			<div class="w3-display-middle">Yes, Assembled Realities is under construction. Fan. Tas. Tic.</div>
 		</div>
-		<div id="about" class="w3-container w3-amber" style="height:30vh;">
-			What am I looking at?
+		<div id="about" class="w3-container w3-amber" style="min-height:30vh;">
+			<br /><div class="w3-center w3-xxxlarge w3-panel">ABOUT</div>
+			<p>
+				Assembled Realities is a game design studio established in 2018 with the intent to make web-enabled games
+			</p>
 		</div>
-		<div id="work" class="w3-container" style="height:30vh;">
-			What have you done?
+		<div id="work" class="w3-container" style="min-height:30vh;">
+			<br /><div class="w3-center w3-xxxlarge w3-panel">WORK</div>
+			<p>
+				Our first game is a Procedural Card Game inspired by the podcast <a href="http://friendsatthetable.net/" target="_blank">Friends at the Table</a>, Season 4: The Twilight Mirage. The working title is:<a href="https://nathanielwiley.github.io/demo-scion/" target="_blank">Confluent Circuit</a>
+			</p>
+			<p>
+				In conjunction with our games, we are working on the Browser Memory Utility, a standalone bit of code that will act like a memory card for our browser-based games. Switching devices or just browsers but don't want to sign up for an account? "Eject" your BMU and save the JSON string somewhere you can find it again. Then, paste that blob of data into your next browser to "insert" your BMU and badda bing! Your high scores are preserved for posterity!
+			</p>
 		</div>
-		<div id="team" class="w3-container w3-amber" style="height:30vh;">
-			Who are you?
+		<div id="team" class="w3-container w3-amber" style="min-height:30vh;">
+			<br /><div class="w3-center w3-xxxlarge w3-panel">TEAM</div>
+			<p>
+				<a href="https://nathanielwiley.github.io/" target="_blank">Nathaniel Wiley - Founder, Designer</a>
+			</p>
 		</div>
-		<div id="news" class="w3-container" style="height:30vh;">
-			What is going on?
+		<div id="news" class="w3-container" style="min-height:30vh;">
+			<br /><div class="w3-center w3-xxxlarge w3-panel">NEWS</div>
+			<p>
+				Starting is the hardest part until you have to keep going.
+			</p>
 		</div>
 		<footer class="w3-container">
-			<p class="">Powered by <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a>, <a href="https://fontawesome.com/" target="_blank">Font Awesome</a><!--, <a href="https://vuejs.org/" target="_blank">Vue.js</a>--></p>
-			<!-- Social/Contact links -->
-			<div class="">Released under the <a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT License</a></div>
-			<div>Copyright &copy; 2018 Assembled Realities</div>
+			<p class="">
+				Built using <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a> and <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+				<a href="https://github.com/assembled-realities" title="Assembled Realities on github.com" target="_blank"><i class="fab fa-github fa-2x w3-hover-text-amber"></i></a>
+				<a href="https://assembled-realities.itch.io/" title="Assembled Realities on itch.io" target="_blank"><i class="fas fa-gamepad fa-2x w3-hover-text-amber"></i></a>
+				Released under the <a href="https://github.com/assembled-realities/assembled-realities.github.io/blob/master/LICENSE" target="_blank">MIT License</a>
+				Copyright &copy; 2018 Assembled Realities
 		</footer>
+		<script>
+			function showNav(){document.getElementById('ARnav').style.display='block';}
+			function hideNav(){document.getElementById('ARnav').style.display='none';}
+		</script>
+		<!--, <a href="https://vuejs.org/" target="_blank">Vue.js</a>-->
 		<!--
 			<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
