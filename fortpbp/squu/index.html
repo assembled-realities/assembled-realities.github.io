@@ -20,30 +20,40 @@
 	<body>
 		<div id="uuapp" class="w3-container w3-padding">
 			<div id="partyUI" class="w3-card-4">
-				<div v-for="pc in pcs" class="w3-container w3-padding w3-border-black w3-bottombar">
-					<p>Portrait
-					Name
-					# of Skills
-					XP
-					Harm Track
-					Stun Track
-					Debt Track
-					Career 1
-					Career 2
-					Origin
-					Archetype
-					Advacement track
-					Player
-					Assets
-					Mods
-					Debilities
-					Data Points
-					Factions
-					Description</p>
+				<div v-for="pc in pcs" class="w3-container w3-padding w3-border-black w3-bottombar w3-row">
+					<div class="w3-col s12 m4 l3">
+						Portrait
+					</div>
+					<div class="w3-col s12 m4 l3">
+						{{pc.name}}<br />
+						<i>{{pc.archetype}}</i><br />
+						{{pc.c1}}, {{pc.c2}}, {{pc.o}}<br />
+						<strong>Skills</strong> {{pc.skills.length}}<strong> / XP</strong> {{pc.XP}}
+					</div>
+					<div class="w3-col s12 m4 l6">
+						<span class="w3-badge w3-red w3-round-large" title="Mettle"><i class="fas fa-crosshairs"></i> {{pc.mettle}}</span>
+						<span class="w3-badge w3-red w3-round-large" title="Physique"><i class="fas fa-heartbeat"></i> {{pc.physique}}</span>
+						<span class="w3-badge w3-red w3-round-large" title="Expertise"><i class="fas fa-puzzle-piece"></i> {{pc.expertise}}</span>
+						<span class="w3-badge w3-red w3-round-large" title="Influence"><i class="fas fa-comments"></i> {{pc.influence}}</span>
+						<span class="w3-badge w3-red w3-round-large" title="Interface"><i class="fas fa-wifi"></i> {{pc.interface}}</span>
+						<span class="w3-badge w3-red w3-round-large" title="Armor"><i class="fas fa-shield-alt"></i> {{pc.armor}}</span><br />
+						<i class="fas fa-medkit"></i> Harm Track <br />
+						<i class="fas fa-pills"></i> Stun Track <br />
+						<i class="fas fa-money-bill-wave"></i> Debt Track <br />
+						<p>
+						Advacement track
+						Player
+						Assets
+						Mods
+						Debilities
+						Data Points
+						Factions
+						Description</p>
+					</div>
 				</div>
 			</div>
 			<div id="navUI">
-				Party | Ship | Factions | Advacement
+				Party | Ship | Factions | Advacement | Crews | Vehicles
 			</div>
 		</div>
 		<!--<footer class="w3-container">
@@ -67,14 +77,18 @@
 
 					};},
 					pc:function(){return {
-						name:'',c1:'',c2:'',o:'',player:'',description:'',
+						name:'',c1:'',c2:'',o:'',player:'',description:'',url:'',
 						armor:0,
 						mettle:0,
 						physique:0,
 						influence:0,
 						expertise:0,
 						interface:0,
+						archetype:'',
 						advancement:'',
+						XP:0,
+						skills:[],
+						dataPoints:[],
 						injuries:[[],[],[],[],[]],
 						stun:[[],[],[],[],[]],
 						debilities:[[],[]],
@@ -90,9 +104,7 @@
 				};
 				var uuVue = new Vue({
 					el:'#uuapp',
-					data:{
-						players:[],pcs:[],factions:[]
-					},
+					data:{players:[],pcs:[],factions:[],crews:[]},
 					methods:{
 						addPlayer:function(oPlayer){
 							var nPlayer = uuDef.player();
@@ -100,14 +112,20 @@
 							this.players.push(nPlayer);
 						},
 						addPC:function(oPC){
+							console
 							var nPC = uuDef.pc();
 							_.extendOwn(nPC,oPC);
-							this.players.push(nPC);
+							this.pcs.push(nPC);
 						},
 						addFaction:function(oFaction){
 							var nFaction = uuDef.faction();
 							_.extendOwn(nFaction,oFaction);
-							this.players.push(nFaction);
+							this.factions.push(nFaction);
+						},
+						addCrews:function(oFaction){
+							var nCrews = uuDef.crew();
+							_.extendOwn(nCrews,oCrews);
+							this.crew.push(nCrews);
 						},
 						getPlayers:function(){
 							return this.players;
@@ -124,7 +142,10 @@
 			})();
 		</script>
 		<script>
-
+			UUUI.addPC({
+				name:'These-Walls-Do-Talk',c1:'Starfarer',c2:'Consul',o:'Occult',
+				mettle:1,influence:2,expertise:1,interface:-1,archetype:'Resident Spirit'
+			});
 		</script>
 	</body>
 </html>
