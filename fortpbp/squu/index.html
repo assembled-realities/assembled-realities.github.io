@@ -22,6 +22,7 @@
 			<div id="partyUI" class="w3-card-4">
 				<div v-for="pc in pcs" class="w3-container w3-padding w3-border-black w3-bottombar w3-row">
 					<div class="w3-col s12 m4 l3">
+						<div class="w3-small">{{pc.player}}</div>
 						Portrait
 					</div>
 					<div class="w3-col s12 m4 l3">
@@ -42,7 +43,6 @@
 						<i class="fas fa-money-bill-wave"></i> Debt Track <br />
 						<p>
 						Advacement track
-						Player
 						Assets
 						Mods
 						Debilities
@@ -144,7 +144,7 @@
 		<script>
 			UUUI.addPC({
 				name:'These-Walls-Do-Talk',c1:'Starfarer',c2:'Consul',o:'Occult',
-				mettle:1,influence:2,expertise:1,interface:-1,archetype:'Resident Spirit'
+				mettle:1,influence:2,expertise:1,interface:-1,archetype:'Resident Spirit',player:'@AssembledRealities#7978'
 			});
 		</script>
 	</body>
