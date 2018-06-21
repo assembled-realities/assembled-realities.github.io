@@ -19,41 +19,47 @@
 	</head>
 	<body>
 		<div id="uuapp" class="w3-container w3-padding">
+			<div id="navUI" class="w3-margin-bottom w3-border-black w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-card-4 w3-center w3-round-xlarge">
+				Party | Ship | Factions | Advacement | Crews | Vehicles
+			</div>
 			<div id="partyUI" class="w3-card-4">
 				<div v-for="pc in pcs" class="w3-container w3-padding w3-border-black w3-bottombar w3-row">
-					<div class="w3-col s12 m4 l3">
+					<div class="w3-col s12 m4 l3 w3-margin-bottom">
 						<div class="w3-small">{{pc.player}}</div>
-						Portrait
+						<div class="w3-center w3-panel"><i class="fas fa-user-astronaut fa-7x"></i></div>
+						<div class="w3-small">{{pc.description}} + Scars?</div>
 					</div>
-					<div class="w3-col s12 m4 l3">
-						{{pc.name}}<br />
+					<div class="w3-col s12 m4 l3 w3-margin-bottom">
+						{{pc.name}} ({{pc.pronouns}})<br />
 						<i>{{pc.archetype}}</i><br />
 						{{pc.c1}}, {{pc.c2}}, {{pc.o}}<br />
-						<strong>Skills</strong> {{pc.skills.length}}<strong> / XP</strong> {{pc.XP}}
+						<strong>Classification</strong> {{pc.species}}<br />
+						<strong>Skills</strong> {{pc.skills.length}}<strong> / XP</strong> {{pc.XP}}<br />
+						<strong>+XP</strong> {{pc.advancement}}
 					</div>
-					<div class="w3-col s12 m4 l6">
-						<span class="w3-badge w3-red w3-round-large" title="Mettle"><i class="fas fa-crosshairs"></i> {{pc.mettle}}</span>
-						<span class="w3-badge w3-red w3-round-large" title="Physique"><i class="fas fa-heartbeat"></i> {{pc.physique}}</span>
-						<span class="w3-badge w3-red w3-round-large" title="Expertise"><i class="fas fa-puzzle-piece"></i> {{pc.expertise}}</span>
-						<span class="w3-badge w3-red w3-round-large" title="Influence"><i class="fas fa-comments"></i> {{pc.influence}}</span>
-						<span class="w3-badge w3-red w3-round-large" title="Interface"><i class="fas fa-wifi"></i> {{pc.interface}}</span>
-						<span class="w3-badge w3-red w3-round-large" title="Armor"><i class="fas fa-shield-alt"></i> {{pc.armor}}</span><br />
-						<i class="fas fa-medkit"></i> Harm Track <br />
-						<i class="fas fa-pills"></i> Stun Track <br />
-						<i class="fas fa-money-bill-wave"></i> Debt Track <br />
+					<div class="w3-col s12 m4 l6 w3-margin-bottom">
+						<div class="w3-margin-bottom">
+							<span class="w3-badge w3-red w3-round-large" title="Mettle"><i class="fas fa-crosshairs"></i> {{pc.mettle}}</span>
+							<span class="w3-badge w3-red w3-round-large" title="Physique"><i class="fas fa-heartbeat"></i> {{pc.physique}}</span>
+							<span class="w3-badge w3-red w3-round-large" title="Expertise"><i class="fas fa-puzzle-piece"></i> {{pc.expertise}}</span>
+							<span class="w3-badge w3-red w3-round-large" title="Influence"><i class="fas fa-comments"></i> {{pc.influence}}</span>
+							<span class="w3-badge w3-red w3-round-large" title="Interface"><i class="fas fa-wifi"></i> {{pc.interface}}</span>
+							<span class="w3-badge w3-red w3-round-large" title="Armor"><i class="fas fa-shield-alt"></i> {{pc.armor}}</span>
+						</div>
+						<uw-tracker label="Status" icon="fas fa-user-circle" v-bind:track="getTrackerLabels()"></uw-tracker>
+						<uw-tracker label="Harm" icon="fas fa-medkit" v-bind:track="pc.injuries"></uw-tracker>
+						<uw-tracker label="Stun" icon="fas fa-pills" v-bind:track="pc.stun"></uw-tracker>
+						<uw-tracker label="Debt" icon="fas fa-coins" v-bind:track="pc.debt"></uw-tracker>
+						<div><i class="fas fa-notes-medical"></i> <strong class="w3-small">Minor Debilities</strong> <span class="w3-tiny" v-for="deb in pc.debilities[0]">{{deb}} </span></div>
+						<div><i class="fas fa-x-ray"></i> <strong class="w3-small">Major Debilities</strong> <span class="w3-tiny" v-for="deb in pc.debilities[1]">{{deb}} </span></div>
 						<p>
-						Advacement track
+						Skills
 						Assets
 						Mods
-						Debilities
 						Data Points
-						Factions
-						Description</p>
+						Factions</p>
 					</div>
 				</div>
-			</div>
-			<div id="navUI">
-				Party | Ship | Factions | Advacement | Crews | Vehicles
 			</div>
 		</div>
 		<!--<footer class="w3-container">
@@ -84,7 +90,9 @@
 						influence:0,
 						expertise:0,
 						interface:0,
-						archetype:'',
+						species:'Humanoid',
+						pronouns:'',
+						archetype:'Unnamed Archetype',
 						advancement:'',
 						XP:0,
 						skills:[],
@@ -102,6 +110,11 @@
 
 					};}
 				};
+				Vue.component('uw-tracker',{
+					props: ['label','icon','track'],
+					template: 
+					'<div class="w3-row"><div class="w3-col l2 m2 s2"><i v-bind:class="icon"></i> <strong class="w3-small">{{label}}</strong></div><div class="w3-tiny w3-col l2 m2 s2 w3-center w3-border-left w3-border-black" v-for="stage in track"><span v-if="stage.length === 0">--</span><span v-else class="" v-for="item in stage">{{item}}</span></div></div>'
+				});
 				var uuVue = new Vue({
 					el:'#uuapp',
 					data:{players:[],pcs:[],factions:[],crews:[]},
@@ -135,17 +148,49 @@
 						},
 						getFactions:function(){
 							return this.factions;
+						},
+						getTrackerLabels:function(){
+							return [['Minor'],['Major'],['Severe'],['Critical'],['Fatal/Crushing']];
 						}
 					}
 				});
+				var pcWalls = uuDef.pc();
+				_.extendOwn(pcWalls,{
+					name:'These-Walls-Do-Talk',c1:'Consul',c2:'Starfarer',o:'Occult',advancement:'Consul: A taste of exotica is enjoyed',description:'Sunny,Polite,Peculiar',pronouns:'They/Them',species:'Spirit',
+					mettle:1,influence:2,expertise:1,interface:-1,archetype:'Resident Spirit',player:'@AssembledRealities#7978'
+				});
+				pcWalls.debt[0].push('Daak Kwáan');
+				pcWalls.debt[2].push('VolaBall League');
+				var pcPride = uuDef.pc();
+				_.extendOwn(pcPride,{
+					name:'Pride',c1:'Explorer',c2:'Fanatic',o:'Rustic',advancement:'Explorer: A ludicrous stunt turns the tides',description:'Battered, Weary, Haggard',species:'Robot',pronouns:'He/Him',
+					physique:1,mettle:2,expertise:1,interface:-1,player:'@Animenite97#5269'
+				});
+				pcPride.debt[0].push('Daak Kwáan');
+				pcPride.debt[2].push('DarCon: New Lands');
+				var pcDoc = uuDef.pc();
+				_.extendOwn(pcDoc,{
+					name:'Doc Rasper',c1:'Academic',c2:'Starfarer',o:'Programmed',advancement:'Academic: When a life is saved or destroyed by science',description:'Distracted, Tolerant, Harmless',species:'Udrok',
+					physique:-1,influence:1,expertise:2,interface:1,player:'@Observer138#2652'
+				});
+				pcDoc.debt[0].push('Daak Kwáan');
+				pcDoc.debt[2].push('C3');
+				var pcHansby = uuDef.pc();
+				_.extendOwn(pcHansby,{
+					name:'D.Z.C. Hansby & Balthazar',c1:'Technocrat',c2:'Starfarer',o:'Crowded',advancement:'Technocrat: When a pivotal data cluster is accessed.',description:'Lively, Tolerant, Awkward',species:'Resurrected Semizombie',
+					mettle:-1,physique:1,expertise:1,interface:2,player:'@Taro#0518'
+				});
+				pcHansby.debt[3].push('Daak Kwáan');
+				uuVue.addPC(pcWalls);
+				uuVue.addPC(pcPride);
+				uuVue.addPC(pcDoc);
+				uuVue.addPC(pcHansby);
 				return uuVue;
 			})();
+
 		</script>
 		<script>
-			UUUI.addPC({
-				name:'These-Walls-Do-Talk',c1:'Starfarer',c2:'Consul',o:'Occult',
-				mettle:1,influence:2,expertise:1,interface:-1,archetype:'Resident Spirit',player:'@AssembledRealities#7978'
-			});
+			
 		</script>
 	</body>
 </html>
