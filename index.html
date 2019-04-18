@@ -1,87 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta name="robots" content="noindex" />
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="">
-		<meta name="author" content="Assembled Realities">
+		<meta name="description" content="Assembled Realities Web Portal">
+		<meta name="author" content="Nathaniel Wiley">
 		<!--<link rel="icon" href="../../favicon.ico">-->
-		<title>Assembled Realities | tagline</title>
+		
+		<title>Assembled Realities - Home</title>
 
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-camo.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-food.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-safety.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-signal.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-vivid.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<style>
-			.ar-nav-item{cursor:pointer;text-decoration: none;}
+			.hlh--container {padding-left: 16px;}
+			.hlh--link-tags .w3-tag,.hlh--control-tags .w3-tag {cursor:pointer; margin-right:4px;}
+			.hlh--control-button {cursor: pointer;}
+			body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+			body, html {
+				height: 100%;
+				line-height: 1.8;
+			}
+			/* Full height image header */
+			.bgimg-1 {
+				background-position: center;
+				background-size: cover;
+				background-image: url("asset/img/AR%20logo.png");
+				min-height: 100%;
+			}
+			.w3-bar .w3-button {
+				padding: 16px;
+			}
 		</style>
 	</head>
 	<body>
-		<div id="summit" class="w3-top w3-card w3-black"><div class="w3-bar">
-			<div class="w3-xlarge w3-bar-item"><i class="fa fa-chart-pie w3-text-amber"></i> Assembled Realities</div>
-			<a href="#news" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">NEWS</a>
-			<a href="#team" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">TEAM</a>
-			<a href="#work" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">WORK</a>
-			<a href="#about" class="ar-nav-item w3-right w3-bar-item w3-border-black w3-hover-text-amber w3-hover-border-amber w3-bottombar w3-hide-small w3-hide-medium">ABOUT</a>
-			<div class="ar-nav-item w3-right w3-bar-item w3-hide-large" onclick="showNav()"><i class="fas fa-bars fa-2x w3-hover-text-amber"></i></div>
-			<!-- Social links -->
-		</div></div>
-		<div id="ARnav" class="w3-modal" style="display:none;"><div class="modal-content"><div class="w3-container w3-black w3-center w3-padding-large">
-			<div onclick="hideNav()" class="ar-nav-item w3-padding w3-black w3-display-topright"><i class="fas fa-window-close fa-2x w3-hover-text-amber"></i></div>
-			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#about">ABOUT</a><br />
-			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#work">WORK</a><br />
-			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#team">TEAM</a><br />
-			<a class="ar-nav-item w3-panel w3-border-black w3-hover-border-amber w3-bottombar" href="#news">NEWS</a>
-			<hr />
-			<span class="w3-padding"><a href="https://github.com/assembled-realities" title="Assembled Realities on github.com" target="_blank"><i class="fab fa-github fa-2x w3-hover-text-amber"></i></a> </span>
-			<span class="w3-padding"><a href="https://assembled-realities.itch.io/" title="Assembled Realities on itch.io" target="_blank"><i class="fas fa-gamepad fa-2x w3-hover-text-amber"></i></a></span>
-		</div></div></div>
-		<div class="w3-display-container w3-black" style="height:50vh;">
-			<div class="w3-display-middle">Yes, Assembled Realities is under construction. Fan. Tas. Tic.</div>
+		<div id="meganav">
+		<!-- Navbar (sit on top) -->
+		<div class="w3-top">
+			<div class="w3-bar w3-white w3-card" id="myNavbar">
+				<a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fas fa-globe"></i> <!--<i class="fas fa-sm fa-dice-d6"></i>--> <i class="fas fa-puzzle-piece fa-flip-horizontal"></i></a>
+				<!-- Right-sided navbar links -->
+				<nav-links container-class="w3-right w3-hide-small"></nav-links>
+				<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+				<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 		</div>
-		<div id="about" class="w3-container w3-amber" style="min-height:30vh;">
-			<br /><div class="w3-center w3-xxxlarge w3-panel">ABOUT</div>
-			<p>
-				Assembled Realities is a game design studio established in 2018 with the intent to make web-enabled games
-			</p>
-		</div>
-		<div id="work" class="w3-container" style="min-height:30vh;">
-			<br /><div class="w3-center w3-xxxlarge w3-panel">WORK</div>
-			<p>
-				Our first game is a Procedural Card Game inspired by the podcast <a href="http://friendsatthetable.net/" target="_blank">Friends at the Table</a>, Season 4: The Twilight Mirage. The working title is:<a href="https://nathanielwiley.github.io/demo-scion/" target="_blank">Confluent Circuit</a>
-			</p>
-			<p>
-				In conjunction with our games, we are working on the Browser Memory Utility, a standalone bit of code that will act like a memory card for our browser-based games. Switching devices or just browsers but don't want to sign up for an account? "Eject" your BMU and save the JSON string somewhere you can find it again. Then, paste that blob of data into your next browser to "insert" your BMU and badda bing! Your high scores are preserved for posterity!
-			</p>
-		</div>
-		<div id="team" class="w3-container w3-amber" style="min-height:30vh;">
-			<br /><div class="w3-center w3-xxxlarge w3-panel">TEAM</div>
-			<p>
-				<a href="https://nathanielwiley.github.io/" target="_blank">Nathaniel Wiley - Founder, Designer</a>
-			</p>
-		</div>
-		<div id="news" class="w3-container" style="min-height:30vh;">
-			<br /><div class="w3-center w3-xxxlarge w3-panel">NEWS</div>
-			<p>
-				To do it, you have to do it. ~ All the PBTA games
-			</p>
-		</div>
-		<footer class="w3-container">
-			Built using <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a> and <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
-			<a href="https://github.com/assembled-realities" title="Assembled Realities on github.com" target="_blank"><i class="fab fa-github fa-2x w3-hover-text-amber"></i></a>
-			<a href="https://assembled-realities.itch.io/" title="Assembled Realities on itch.io" target="_blank"><i class="fas fa-gamepad fa-2x w3-hover-text-amber"></i></a>
-			Released under the <a href="https://github.com/assembled-realities/assembled-realities.github.io/blob/master/LICENSE" target="_blank">MIT License</a>
-			Copyright &copy; 2018 Assembled Realities
+
+		<!-- Sidebar on small screens when clicking the menu icon -->
+		<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+			<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+			<nav-links></nav-links>
+		</nav>
+	</div>
+
+		<!-- Header with full-height image -->
+		<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+			<div class="w3-display-left " style="padding:48px">
+				<span class="w3-jumbo w3-hide-small w3-white w3-opacity">Assembled Realities</span><br>
+				<span class="w3-xxlarge w3-hide-large w3-hide-medium w3-white w3-opacity">Assembled Realities</span><br>
+				<span class="w3-large">Games and Expansion Packs by Nathaniel Wiley</span>
+				<p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Yes, Assembled Realities is under construction. Fan. Tas. Tic.</a></p>
+			</div> 
+		</header>
+
+
+		<!-- Footer -->
+		<footer class="w3-center w3-black w3-padding-64">
+		<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+			<!--<p>All works, unless otherwise marked, are the sole property of their respective authors under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow">a Creative Commons 4.0 attribution license.</a></p>-->
+			<p class="">Powered by <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a>, <a href="https://vuejs.org/" target="_blank">Vue.js</a>, <a href="https://fontawesome.com/" target="_blank">Font Awesome</a></p>
+			<!--<p>Renditions of The Frog &copy; 2018-2019 Sasha Reneau</p>-->
+			<p>Website &copy; 2018-2019 Nathaniel Wiley</p>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
 		<script>
-			function showNav(){document.getElementById('ARnav').style.display='block';}
-			function hideNav(){document.getElementById('ARnav').style.display='none';}
+			var aNav= [
+				{href:'#about',txt:'ABOUT',tgt:''},
+				/*{href:'#voices',txt:'VOICES',tgt:''},
+				{href:'#frogjects',txt:'FROGJECTS',tgt:''},*/
+				{href:'https://assembled-realities.itch.io',txt:'itch.io',tgt:'_blank'},
+				{href:'https://github.com/assembled-realities/',txt:'github.io',tgt:'_blank'}
+			];
+			Vue.component('nav-links', {
+				props:['containerClass'],
+				methods:{
+					getClasses: function(){
+						var oClasses = {};
+						if(this['containerClass'] && this['containerClass'].length > 0){
+							var aClasses = this['containerClass'].split(' ');
+							for(var i in aClasses){
+								oClasses[aClasses[i]] = true;
+							}
+						}
+						return oClasses;
+					}
+				},
+				template: '<div v-bind:class="getClasses()"><a v-for="item in aNav" v-bind:href="item.href" class="w3-bar-item w3-button" v-bind:target="item.tgt">{{item.txt}}</a></div>'
+			});
+			var rpgdfV = new Vue({
+				el:'#meganav',
+				data:{
+					
+				},
+				methods:{}
+			});
+			// Modal Image Gallery
+			function onClick(element) {
+				document.getElementById("img01").src = element.src;
+				document.getElementById("modal01").style.display = "block";
+				var captionText = document.getElementById("caption");
+				captionText.innerHTML = element.alt;
+			}
+
+
+			// Toggle between showing and hiding the sidebar when clicking the menu icon
+			var mySidebar = document.getElementById("mySidebar");
+
+			function w3_open() {
+				if (mySidebar.style.display === 'block') {
+					mySidebar.style.display = 'none';
+				} else {
+					mySidebar.style.display = 'block';
+				}
+			}
+
+			// Close the sidebar with the close button
+			function w3_close() {
+				mySidebar.style.display = "none";
+			}
 		</script>
-		<!--, <a href="https://vuejs.org/" target="_blank">Vue.js</a>-->
-		<!--
-			<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-		-->
 	</body>
 </html>
+
+<!--
+
+-->
