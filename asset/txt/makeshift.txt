@@ -1,0 +1,84 @@
+THE MAKESHIFT
+====================
+Description
+Some folk wiggle their fingers in the air and something shiny and wonderous happens.
+Not you, you dig in up to your elbows and find the right tool for the situation.
+And if you don't? The parts to make one will suffice. Don't be surprised when 
+someone tells you to put that thing back where it came from, though...
+
+// The Makeshift is all about getting the most out of your surroundings, 
+// even if that means leaving a trail of debris. 
+// Your moves focus on producing mechanically significant items or effects 
+// out of improvised or found materials - that may or may not belong
+// right where they are - thank you very much.
+
+Character Questions
+- What circumstances first drove your Makeshift towards ad hoc problem solving? 
+- What’s something your Makeshift regrets breaking to get the upper hand in a tense situation?
+- What is the one tool or material your Makeshift stumbles without?
+====================
+Names: Angus, Lucy, Mogruk, Gaige, Agatha, Guybrush 
+A Scrappy Name, A Crafty Name, A Tool or Weapon Name
+====================
+STATS
+LIGHT +0, DARK +0, MASTERY +1, HEART +0
+====================
+Link Move: Follow The Instructions
+When you make a Mastery Link, take 1 Hold. 
+When one of you issues step-by-step directions to the other, they can spend that Hold 
+to give Advantage to the next Roll that follows those directions.
+====================
+Playbook Moves (At character creation, take "Take What You Can" and choose 2)
+
+* Take What You Can *
+When you ransack your surroundings to find, build, or modify a constructed object, 
+Roll with Mastery:
+On a Hit, Describe the object, how it fulfills the function you intend for it (if that isn't obvious),
+and choose 1 option below. On a 10+, Choose 2 more options.
+- The Object grants +1 ongoing to one Basic Move (choose which one now)
+- The Object or it's components won't be missed.
+- The Object is inconspicuous.
+- The Object produces no unintended effects.
+- The Object is of high quality or usefulness.
+
+* Give Nothing Back *
+When you can't (or won't) relinquish something you took to get out of trouble, Mark Experience.
+
+* Now, it's Real Simple *
+When you rely on impenetrable jargon, technobabble, or rapid-fire detailed instructions,
+you may Roll with Mastery instead of Heart to Convince Someone.
+On a 10+, they are astonished by your expertise and gain a Mastery Link with you. 
+If they already have a Mastery Link with you, Lock that Link.
+
+* Master Builder *
+While you are assembling, dismantling, repairing, altering, operating, or hands-on investigating
+a complex constructed object, you count as a Small Gang and can do more than a normal person.
+
+* Catch a Ride! *
+When you or someone you have a Link with operate a mode of transportation, you may Spend a Link to:
+- Declare the person whose Link you Spent is a passenger, if they are willing.
+- Declare you are a passenger, if the person whose Link you Spent is willing.
+
+* Cunning but Brutal *
+When you set a trap or sabotage a constructed object, Roll to Interfere using Mastery instead of Dark. 
+Resolve the outcome of your roll on the first person affected by your trap or sabotage.
+
+* First Try! *
+You may gain Advantage on a roll as if you Spent a Link by describing how you Lose Something Important.
+
+* But It's Going to Look Really Cool *
+You may create a small scale retcon as if you Spent a Link if you cause meaningful collateral damage
+in the retcon.
+====================
+After 3 Advancements, you may take this Move or other Advanced Moves
+* Red Ones Go Faster *
+When you take this Move, describe a purely aesthetic quirk and a specific functional purpose.
+When you are in a scene, constructed objects with that quirk grant +1 ongoing to be used for that purpose.
+====================
+This Playbook is compatible with
+* Interstitial: Our Hearts Intertwined * By Riley Hopkins
+https://revryebread.itch.io/interstitial-our-hearts-intertwined
+
+Last Edited on March 30, 2019
+By Nathaniel Wiley
+https://assembled-realities.itch.io/

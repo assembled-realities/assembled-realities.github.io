@@ -1,0 +1,28 @@
+THE PLAYBOOK
+====================
+Description
+Address the character wrt flavor
+
+// Address the player wrt play expectations
+
+Character Questions
+====================
+Names: References, 
+"An Evocative Adjective Name"
+====================
+STATS
+LIGHT +0, DARK +0, MASTERY +0, HEART +0 (net +1)
+====================
+Link Move
+====================
+Playbook Moves (At character creation, take X and choose 2)
+====================
+After 3 Advancements, you may take this Move or another Advanced Move
+====================
+This Playbook is compatible with
+* Interstitial: Our Hearts Intertwined * By Riley Hopkins
+https://revryebread.itch.io/interstitial-our-hearts-intertwined
+
+Last Edited on March 30, 2019
+By Nathaniel Wiley
+https://assembled-realities.itch.io/
