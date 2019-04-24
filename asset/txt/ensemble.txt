@@ -35,8 +35,8 @@ On a Miss, the GM chooses instead.
 - Change a 10 into a 7-9; or a 7-9 into a miss. If the roll was already a miss, you mark Experience.
 
 *We've Been Busy*
-When you spend an appreciable amount of time "off screen" or "out of the spotlight"
-working towards a particular task, roll with Links.
+When you spend an appreciable amount of time "off screen" or "out of the spotlight", 
+describe generally what you were doing during the interval and roll with Links.
 The GM chooses which Links to roll based on the description of your actions.
 
 On a 7-9, choose 1 option. On a 10+, choose 2.
@@ -51,8 +51,8 @@ When you believe you are following instructions someone has given you,
 you count as a Small Gang and can do more than a normal person.
 
 *BA-NA-NA!!*
-When you pursue a trivial or irrelevant distraction to the exclusion
-of anything else, you count as a Small Gang and can do more than a normal person.
+When your attention is wrapped up in routine or frivolous pursuits, 
+you count as a Small Gang and can do more than a normal person.
 
 *Assistant (to the) Manager*
 When someone singles out one member of your Ensemble to interact with,
