@@ -1,0 +1,95 @@
+THE ENSEMBLE
+====================
+Description
+Address the character wrt flavor
+
+// Address the player wrt play expectations
+
+Character Questions
+====================
+Names: Ultron, Agents Smith, Servbots, Minions, Posse, Baker St Irregulars, Mini-Cons
+A plural noun, A collective noun
+====================
+STATS
+LIGHT +0, DARK +0, MASTERY +0, HEART +0 (net +1)
+====================
+Link Move: Reporting for Duty
+Mark Experience when someone Makes a Mastery Link with you, Changes their Link with you to Mastery, or Locks their Mastery Link with you.
+====================
+Playbook Moves (At character creation, take "So Many Cooks" and choose 2)
+
+*Fish in a Barrel, More in the Sea*
+When you Defend yourself From Harm, you get -1 to the Roll.
+When you take Harm, describe how your Ensemble dwindles without depleting.
+You may Spend Experience instead of taking Harm.
+If this would leave you with less than 0 Experience, lose a Move.
+
+*So Many Cooks*
+When you contribute to the ease or difficulty of a particular task, roll with Links.
+The GM chooses which Links to roll based on the situation.
+
+On a 10+, you count as a Small Gang until you resolve your next Move.
+On a Hit, choose 1 option to apply to the next roll to accomplish the task.
+On a Miss, the GM chooses instead.
+- Change a miss into a 7-9; or a 7-9 into a 10. If the roll was already a 10+, you mark Experience.
+- Change a 10 into a 7-9; or a 7-9 into a miss. If the roll was already a miss, you mark Experience.
+
+*We've Been Busy*
+When you spend an appreciable amount of time "off screen" or "out of the spotlight"
+working towards a particular task, roll with Links.
+The GM chooses which Links to roll based on the description of your actions.
+
+On a 7-9, choose 1 option. On a 10+, choose 2.
+- You make, find, or take something valuable. 
+- You discover the answer to a question.
+- You set up a significant opportunity.
+- You avoid unwanted attention.
+On a miss, introduce a dangerous situation right away.
+
+*Roger, Roger*
+When you believe you are following instructions someone has given you, 
+you count as a Small Gang and can do more than a normal person.
+
+*BA-NA-NA!!*
+When you pursue a trivial or irrelevant distraction to the exclusion
+of anything else, you count as a Small Gang and can do more than a normal person.
+
+*Assistant (to the) Manager*
+When someone singles out one member of your Ensemble to interact with,
+decide whether they exert their individuality from the Ensemble.
+If they do, name them if you haven't already and roll with Mastery.
+
+On a 7-9, they become an independent NPC with a Mastery Link with you. 
+The GM gives them 2 more Links.
+On a 10+, you get to give them 2 Links instead. They don't need to be Links you hold. 
+
+*Huddle Up*
+When disagreement or indecision among the members of your Ensemble make you miss an opportunity, mark Experience.
+
+*From the Wings*
+When you spend a Link, you may Interfere with, Limit Break, or Defend someone From Harm
+as though you were in the scene with them.
+
+On a Hit, you appear in the scene and act.
+On a 7-9, you lose track of something important.
+On a Miss, the consequences of the Move are felt in both locations.
+====================
+After 3 Advancements, you may take this Move or another Advanced Move
+*Jolly Cooperation*
+When you act collectively with your friends to do something impossible, describe your goal.
+The GM says what you must do to achieve it. 
+Roll plus the number of friends who agree to risk taking Harm in the attempt.
+
+On a Hit, you do it and set up an unbelievable opportunity.
+On a 7-9, everyone who agreed to risk Harm takes Harm.
+On a Miss, everyone takes Harm and prepare for the absolute worst.
+
+You may take additional Harm to increase the result of this roll by the amount of Harm you took this way.
+====================
+This Playbook is compatible with
+* Interstitial: Our Hearts Intertwined * By Riley Hopkins
+https://revryebread.itch.io/interstitial-our-hearts-intertwined
+
+Last Edited on April 24, 2019
+By Nathaniel Wiley
+https://assembled-realities.itch.io/
