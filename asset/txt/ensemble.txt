@@ -66,6 +66,37 @@ On a 10+, you get to give them 2 Links instead. They don't need to be Links you 
 *Huddle Up*
 When disagreement or indecision among the members of your Ensemble make you miss an opportunity, mark Experience.
 
+*Meddlesome*
+FitD Resist or Old Familiar World Intervene
+INTERVENE (-2 if Guilty, Anxious)
+When you directly intercept, redirect, or oppose something that is happening or about to happen, roll with the questions:
+- Are you prepared for this intervention?
+- Are you focused on the part of the situation you want to change?
+- Are you intervening in someone else using one of your Moves?
+
+On a Miss, you Mark a Mood and the situation escalates.
+
+On a Hit, you are tied up in the situation and must STRIVE to get out. On a 7-9, choose 1. On a 10+, choose 2.
+- You resist or avoid being tied up in the situation and do NOT need to STRIVE to get out.
+- You oppose someone else’s efforts. An NPC is stopped. A PC must STRIVE to overcome your opposition.
+- You implore someone to reconsider their efforts. An NPC chooses to stop. A PC Earns a Merit and does not succeed.
+- You de-escalate the situation
+- You prevent or mitigate immediate distress
+
+- You take control of the situation
+
+- You seize the attention of others in the situation
+- You impress, surprise, or frighten someone
+
+- You take something from them
+
+- You create an opportunity
+- You improve someone else’s position or outcome
+
+The more specific options in the list, the more fictional vectors for the GM to say “you DIDN’T choose to…” but a 10+ should still feel like a complete success….
+Perhaps a list on the longer side, but 10+ is Choose 3, instead of Choose 2, and maybe 7-9 is Choose 2? Or still Choose 1?
+
+
 *From the Wings*
 When you spend a Link, you may Interfere with, Limit Break, or Defend someone From Harm
 as though you were in the scene with them.
