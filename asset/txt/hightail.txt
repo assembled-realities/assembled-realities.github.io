@@ -1,0 +1,150 @@
+THE HIGHTAIL
+====================
+Description
+Wanderlust is hardly a rare sentiment, but there are those who manage to find boundaries 
+they just can't push past with distance or novelty. The World is wrapped in a safety blanket 
+keeping all the comfy status quo in. There must be a Way Out! Sure enough, you found it! 
+You failed to leave this World once before and have become tangled in the fabric of It 
+in a way that sets you apart from everybody else. You're caught in the weave, but maybe 
+that means a tug in the right place will unravel everything standing in your way!
+
+// The Hightail changes their Experience Track into a lit fuse and opens up a box of matches. 
+// You will be able to directly affect the pace at which you gain Experience and approach the 
+// climax of your character's story. You are going to progress quickly and you are going to be
+// able to push this game's Basic Moveset harder than the rest of your party. 
+// What's the tradeoff? Well, what's at the end of a fuse?
+
+
+Character Questions
+- Your efforts to escape already revealed a surefire Way Out of this World. What was it?
+- What Obstacle stopped your last attempt in its tracks?
+- What Snags keep you from trying again?
+- What about your look communicates that you're struggling against a fundamental aspect of this reality, that you nearly broke free once, and that neither you nor the World came away with a total victory?
+====================
+Names: Vanellope, Neo, Hector 
+"An Evocative Adjective Name"
+====================
+STATS
+LIGHT +1, DARK -1, MASTERY +0, HEART +1
+====================
+Link Move: * Somebody Help Me *
+Whenever you Make a Link with someone or someone independently makes a Link with you, mark Experience.
+====================
+Playbook Moves (At character creation, take "I'm Going Nowhere" and nothing else)
+
+* I'm Going Nowhere *
+You cannot leave this World except by Making Your Escape through a Way Out. 
+If you pursue a different Way Out than the one described in your backstory answers, 
+work with the GM to establish a major Obstacle and minor Snags to complicate 
+a new route for Making Your Escape.
+
+When you would mark Harm, weather the blow and mark Experience instead. 
+Describe how more of you becomes tangled in, or unraveled from, reality.
+
+When you fill your Experience Track, don't Advance as normal. 
+Describe how your struggle with the fabric of reality becomes more noticeable.
+
+If you have fewer than 5 moves from this playbook, 
+pick a move from this playbook and clear your Experience Track.
+Once you have 3 moves from this playbook, you may pick this playbook's Advanced Move.
+
+If you have 5 moves from this playbook, it's now or never. Make Your Escape immediately. 
+
+_When you Make Your Escape_, 
+describe the desperate situation this World orchestrates to interfere with you. 
+You and your party should prepare for adversity.
+
+When you make your final push through this situation, Roll with Links.
+This roll can't be given Advantage except in the following manner.
+If you addressed neither your Obstacle nor Snags, roll with Disadvantage.
+If you addressed only the Obstacle or Snags, roll normally.
+If you addressed both the Obstacle and Snags, roll with Advantage.
+
+On any Hit: Lose all unlocked Links and moves from this playbook. Then, choose 1:
+- You willingly surrender yourself to this World.
+  This character becomes a GMPC and the GM takes ownership of their story from now on.
+  Deescalate the situation.
+
+- You tear what's left of yourself out of the fabric of this World,
+  leaving dangerously frayed edges behind. Escalate the situation.
+  Exit the scene immediately. Appear at a location not on this World.
+  Regroup later. Take a new playbook that isn't The Connected.
+
+On a 10+: choose 1:
+- You haven't (been) let go completely. Take a World Link with this World.
+- Recover a lost Link with someone who helped you Make Your Escape.
+- Everyone who helped you Make Your Escape marks Experience for each Locked Link they have.
+  Then, they may Lock any Unlocked Links they have.
+
+On a 6 or less: You unravel before the World does. You are dead.
+
+* It's Alright, It's Okay *
+When you Make Your Escape and successfully leave this World, 
+you do not expose the rest of the party to additional danger.
+
+* Look the Other Way *
+When you Spend a Link, mark Experience rather than treating the Link as spent. 
+This does not apply to effects that say "erase", "lose", "break," or "reset" Links.
+
+* We Can Try To Understand *
+Mark Experience to use the Advanced Move Prophecize once. 
+If you ever get the chance, you can still take and use Prophecize normally later.
+
+* I Just Can't Lose *
+Mark Experience to automatically Roll 10 once.
+
+* Wings of Heaven On My Shoes *
+Mark Experience to appear in a scene or to move to any location you choose within the scene you're in.
+
+* Everybody Shaking *
+You may mark Experience once to let every PC Make or Change Links with any other PCs they choose.
+
+* Staying Alive *
+Mark Experience to completely heal the party's Harm once.
+
+====================
+After 3 Advancements, you may take this Move or another Advanced Move
+* Feel the City Breaking *
+When you Make Your Escape, clear your Experience Track without Advancing in any way.
+====================
+TO THE PLAYERS AND THE GM
+For everyone's peace of mind, MOVES FROM THIS PLAYBOOK AREN'T ELIGIBLE for 
+"Pick a Move from another Playbook" Advancement choices. 
+The Hightail's moves are intentionally game breaking in a particular way. 
+Taking them out of context will only cause heartache. 
+If you want to play in this sandbox for a mission, jump all the way in and change your playbook!
+
+Case in point, marking Experience is treated as a cost to be paid by a number of The Hightail's moves. 
+This would be ludicrous for any playbook that wasn't about running out of time 
+or sawing the branch you're sitting on. This playbook is about both of those things. 
+From a narrative perspective, the effects of those moves you're "paying" Experience to get 
+represent your character probing the prison walls, so to speak. They're bound to learn something useful 
+just by the effort. That's one way to rationalize it, anyway.
+
+That being said, this Playbook is written to ask for the spotlight often, 
+but it is also written to play out it's story in a single mission. 
+If there is interest in having The Recursion in your game, 
+talk with everyone ahead of time and set expectations for the appearance of a "guest star" 
+that might turn into a recurring cast member in the future.
+
+The GM needs to be on board with The Recursion joining the game, 
+but it doesn't have to be a chore to "work with The GM to establish...". 
+This could be an opportunity for the Player choosing The Recursion to do the heavy lifting 
+as far as plot hooks for a World or mission go. Consider it a chance for the Player and GM 
+to collaborate on something that will engage the other players and encourage their characters 
+to want to help The Recursion Make their Escape.
+
+If you're worried about the potential for bad outcomes with The Recursion, remember the following:
+The Recursion can Make their Escape before their Experience Track is full.
+"It's Alright, It's Okay" preemptively deescalates the situation for the rest of the party after The Recursion escapes. 
+"I Just Can't Lose" lets you automatically roll a 10 one time if you mark Experience.
+
+Thanks to Trevor Cashmore (@Inanimate) for suggesting the addition of these notes.
+====================
+This Playbook is compatible with
+* Interstitial: Our Hearts Intertwined * By Riley Hopkins
+https://revryebread.itch.io/interstitial-our-hearts-intertwined
+
+Last Edited on May 1, 2019
+By Nathaniel Wiley
+https://assembled-realities.itch.io/
