@@ -1,0 +1,101 @@
+THE PLATFORMER
+====================
+Description
+Your lives seemed simple. Everything was just Going Right. It all went with The Program. 
+You Jump High. Fruit floats off the ground. Barrels get Thrown. Or something like that. 
+It all made sense. Then one day, you went...off, under, through(?!) the stage-select map. 
+Now, everything else has gone sideways (or at least Left!), but not you. 
+You are the Hammer surrounded by Barrels, the ones for smashing. Right? Always Right.
+
+// This playbook is about bringing certain rules from your World of origin with you on your journeys.
+// It's also about starting off single-minded and narrowly defined.
+// The mechanics in The Platformer's moves are very much an assertion that all Worlds
+// and all circumstances you encounter in them will meet your personal expectations;
+// punctuated with an insistent foot stamp.
+// We'll just see how long the “concrete” holds up under all that stamping, Right?
+
+Character Questions
+- What arbitrary criteria does your Platformer use to determine the level of success of a mission?
+- What is your Platformer obsessed with scouring the Worlds to find?
+- How does your Platformer's appearance telegraph their go-to action when facing obstacles?
+====================
+Names: Banjo, Crash, Gex, Mario, Sonic, Rayman, Marina, Felix, Dixie, Ralph 
+A Verb for a Name, A Descriptive Name, A Catchy Name
+====================
+STATS
+LIGHT +1, DARK +1, MASTERY +1, HEART -2
+====================
+Link Move: * Party Mode *
+When you make or change a Link with someone, they choose 1 effect to last until you leave this World:
+- They can receive the benefits of your Collectibles or Power-Ups.
+- They can complete and get the reward for your Secret Star challenge.
+- They take +1 ongoing to follow your example.
+====================
+Playbook Moves (At character creation, choose 3)
+
+* iFrames *
+When you take Harm, get +1 Forward to Defend yourself From Harm or escape by Pushing Through Stress.
+
+* Collect-a-thon *
+When you take this move, describe a different Collectible item from your home 
+for each instantaneous effect below:
+- Heal 1 Harm
+- Prevent the next 1 Harm taken
+- +1 Forward to Roll with Light
+- +1 Forward to Roll with Dark
+- +1 Forward to Roll with Mastery
+
+When you arrive in a new World, Roll with Mastery:
+Any hit: Choose 1 Collectible that is readily available in this World. 
+Work with the GM to describe their appearance and how they are integrated into the current World.
+10+: Choose 2 more Collectibles to be available in this World
+
+* Press A To *
+Choose an ability from this list or add one with the GM's permission:
+- Jump High
+- Jump Far
+- Double Jump
+- Change Directions in Midair
+- Jump with Hangtime
+- Fly
+- Move Through _ (Pipes, Shadows, Trampoline Networks...)
+- Traverse Acrobatically
+- Run Fast
+- Climb
+- Count as a Small Gang
+
+* Press B To *
+Choose another ability from the Press A To list.
+
+* Secret Star *
+When you arrive in a new World, work with the GM to establish a specific challenge outside the goals of the party. If you complete that challenge, mark 2 Experience and take a World Link.
+
+* Did The Music Just Speed Up? *
+When you act under immediate time pressure to achieve a task, 
+take +1 ongoing until you succeed or fail the task. 
+Take 1 Harm on any roll less than 10 in addition to any other consequences.
+
+* Haber-DASH-ery *
+When you arrive in a new World, work with the GM to establish a Power-Up in that World which will grant you an ability from the Press A To list you haven't already chosen.
+
+* It's Not The Fall *
+When you would take Harm from a sudden impact with a surface or barrier, 
+you can Defend yourself From that Harm if you just let it happen. Take +1 on the Roll if you do.
+====================
+After 3 Advancements, you may take this Move or another Advanced Move
+* Checkpoint *
+When you take this move, pick a kind of structure, device, or mechanism to be your Checkpoint.
+Describe how you activate them. 
+
+When you arrive in a new World, work with the GM to describe what form your Checkpoints take in it.
+
+Once per World, when you Fill your Harm Track, you may leave the scene, clear your Harm Track, 
+and appear at the last Checkpoint you activated in this World.
+====================
+This Playbook is compatible with
+* Interstitial: Our Hearts Intertwined * By Riley Hopkins
+https://revryebread.itch.io/interstitial-our-hearts-intertwined
+
+Last Edited on May 1, 2019
+By Nathaniel Wiley
+https://assembled-realities.itch.io/
