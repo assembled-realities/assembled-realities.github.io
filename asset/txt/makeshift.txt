@@ -14,7 +14,7 @@ someone tells you to put that thing back where it came from, though...
 
 Character Questions
 - What circumstances first drove your Makeshift towards ad hoc problem solving? 
-- What’s something your Makeshift regrets breaking to get the upper hand in a tense situation?
+- What's something your Makeshift regrets breaking to get the upper hand in a tense situation?
 - What is the one tool or material your Makeshift stumbles without?
 ====================
 Names: Angus, Lucy, Mogruk, Gaige, Agatha, Guybrush 
@@ -23,7 +23,7 @@ A Scrappy Name, A Crafty Name, A Tool or Weapon Name
 STATS
 LIGHT +0, DARK +0, MASTERY +1, HEART +0
 ====================
-Link Move: Follow The Instructions
+Link Move: * Follow The Instructions *
 When you make a Mastery Link, take 1 Hold. 
 When one of you issues step-by-step directions to the other, they can spend that Hold 
 to give Advantage to the next Roll that follows those directions.
@@ -79,6 +79,6 @@ This Playbook is compatible with
 * Interstitial: Our Hearts Intertwined * By Riley Hopkins
 https://revryebread.itch.io/interstitial-our-hearts-intertwined
 
-Last Edited on March 30, 2019
+Last Edited on May 1, 2019
 By Nathaniel Wiley
 https://assembled-realities.itch.io/
